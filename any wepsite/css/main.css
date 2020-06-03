@@ -1,0 +1,119 @@
+/* start main rules */
+
+body
+{
+    background: rgb(192, 156, 38);
+    direction: rtl;
+}
+.container
+{
+    width: 940px;
+    margin: 20px auto;
+    background: rgb(15, 181, 187);
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* end main rules */
+
+/* start header */
+
+header
+{
+    min-height: 100px;
+    background: rgb(131, 64, 170);
+    overflow: hidden;
+}
+
+header .logo
+{
+    width: 20%;
+    float: right;
+}
+
+header .logo img
+{
+    width: 100%;
+}
+
+header nav
+{
+    width: 80%;
+    float: left;
+}
+
+header nav ul
+{
+    margin:30px 30px 0 0 ;
+    font-family: 'Noto Nastaliq Urdu Draft', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav ul li
+{
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+}
+
+/* end header */
+
+/* start content */
+
+.content
+{
+    height: 500;
+    background: rgb(192, 156, 38);
+    overflow: hidden;
+}
+
+.content .sidebar
+{
+    float: right;
+    width: 25%;
+    margin-left: 1%;
+    height: 500px;
+}
+
+.content .sidebar .widget
+{
+    width: 90%;
+    background: #FFF;
+    border: 2px solid #CCC;
+}
+
+.content .things
+{
+    float: left;
+    width: 74%;
+    height: 500px;
+}
+
+/* end content */
+
+/* start footer */
+footer
+{
+    min-height: 100px;
+    background: #CCC;
+}
+
+footer .info
+{
+    height: 100px;
+    background: #00ff37a1;
+}
+
+footer .copyright
+{
+    height: 40px;
+    background: #333;
+}
+
+/* end footer */
